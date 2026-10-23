@@ -102,7 +102,7 @@ Convert ID `2009215674938` to Base 62:
     <img src="./images/url-shortening-flow.png" alt="URL Shortening" width="500">
 </p>
 
-1. Check if `longURL` exists in the database.
+1. Check if `longURL` exists in thpre database.
 2. If found, return the existing `shortURL`.
 3. Otherwise:
    - Generate a unique ID using a **distributed ID generator**.
